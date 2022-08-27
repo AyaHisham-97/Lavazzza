@@ -1,0 +1,346 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto2";
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+body {
+  box-sizing: border-box;
+  margin: 0%;
+  font-family: "Roboto";
+}
+/* =========================Start Navbar=========================*/
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+  
+}
+#navbar h1 a {
+  color: #f9faf8;
+  text-decoration: none;
+  font-size: 24px;
+}
+#navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+#navbar nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+/* =========================Ending Navbar=========================*/
+/* =========================Start Home============================*/
+#home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 115px;
+  background-color: #1f2937;
+}
+#home h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Roboto2";
+  margin: 0%;
+  padding-bottom: 10px;
+}
+#home p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0%;
+  width: 125%; 
+}
+#home .button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-family: "Roboto2";
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+#home div {
+  width: 30%;
+}
+#home img {
+  width: 350px;
+  height: auto;
+}
+/* =========================Ending Home=========================*/
+/* =========================Start Random Info===================*/
+#random-info {
+  height: 380px;
+}
+#random-info h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Roboto2";
+  font-weight: 900;
+  color: #1f2937;
+  margin: 35px;
+}
+#random-info .container div {
+  color: #f9faf8;
+  display: inline-block;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .l {
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  margin: 0px 25px;
+}
+/***************************************/
+.container .l img {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 130px;
+  height: 140px;
+}
+/* ************************************** */
+.container p {
+  text-align: center;
+  width: 170px;
+  height: 150px;
+  margin: 0px 18px;
+  font-size: 18px;
+  color: #606060; 
+  margin-top: 10px;
+}
+/* =========================Ending Random Info=========================*/
+
+/* =========================Start quote================================*/
+#blockquote {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+#blockquote .quote {
+  margin: 0px;
+  align-self: center;
+  padding: 50px 0px 0px;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 800px;
+}
+#blockquote .author {
+  align-self: center;
+  padding-left: 680px;
+  font-family: "Roboto2";
+  font-size: 18px;
+}
+/* =========================End quote=========================*/
+
+/* =========================Start Call us=====================*/
+#call-us {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0px 90px;
+}
+#call-us .flexbox-item {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 1100px;
+  background: #3882f6;
+  border-radius: 10px;
+  padding: 2em;
+}
+#call-us h2 {
+  color: #f9faf8;
+  font-size: 18px;
+  font-family: "Roboto2";
+}
+#call-us p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+#call-us button {
+  background: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-family: "Roboto2";
+  border: 3px solid #f9faf8;
+  padding: 5px 30px;
+  border-radius: 8px;
+  margin: 30px 100px 0px 0px;
+  align-self: center;
+}
+/* =========================End Call us=========================*/
+
+/* =========================Start footer========================*/
+#footer {
+  padding-top: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+}
+/* =========================End footer=========================*/
+
+/* =========================Start Contact Us===================*/
+#contact-us {
+  background-color: #1f2937;
+}
+#contact-us .container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 753px;
+}
+#contact-us .title{
+text-align: center;
+  font-size: 30px;
+  font-family: "Roboto2";
+  padding-bottom: 20px;
+  position: relative;
+
+}
+#contact-us .title:after{
+  content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color:  #1f2937;
+    
+}
+#contact-us .container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  height: 600px;
+  align-items: center;
+}
+#contact-us img {
+  margin-top: 0%;
+  width: 500px;
+  height: 600px;
+}
+#contact-us p {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 70px;
+  color: #5e5e5e;
+  font-size: 22px;
+}
+/* =========================End Contact Us=========================*/
+
+/* =========================Start Products=========================*/
+/* Design */
+#products *,
+#products *::before,
+#products *::after {
+  box-sizing: border-box;
+}
+
+#products {
+  color: #272727;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+#products .main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#products h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Roboto2";
+}
+#products img {
+  height: 250px;
+  max-width: 100%;
+  vertical-align: middle;
+  
+}
+#products .btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+#products .btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+#products .cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#products .cards_item {
+  display: flex;
+  padding: 1rem;
+}
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 30.3333%;
+  }
+}
+#products .card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#products .card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left,  #1f2937 60%,  #e5e7eb 100%);
+}
+#products .card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+#products .card_text {
+  color: #ffffff;
+  font-size: 0.800rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+/* =========================End Products=========================*/
+
